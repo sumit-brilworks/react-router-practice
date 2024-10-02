@@ -8,19 +8,38 @@ function App() {
 
   return (
     <>
-      <Link className="underline hover:text-sky-600 border-none" to={"/posts"}>
-        Posts page
-      </Link>
-      <Link className="underline hover:text-sky-600 border-none" to={"/blogs"}>
-        Blogs
-      </Link>
-
-      <Link
-        className="underline hover:text-sky-600 border-none"
-        to={"/blogs?index"}
-      >
-        Index Blogs
-      </Link>
+      <div>
+        <Link
+          className="underline hover:text-sky-600 border-none"
+          to={"/posts"}
+        >
+          Posts page
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="underline hover:text-sky-600 border-none"
+          to={"/blogs"}
+        >
+          Blogs
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="underline hover:text-sky-600 border-none"
+          to={"/blogs?index"}
+        >
+          Index Blogs
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="underline hover:text-sky-600 border-none"
+          to={"/scrollrestoration"}
+        >
+          Scroll restoration
+        </Link>
+      </div>
     </>
   );
 }

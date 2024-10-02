@@ -34,10 +34,10 @@ function Posts() {
       <div className="bg-neutral-800 min-h-screen text-white">Loading ....</div>
     );
   }
-  const isAuthenticated = true;
-  if (isAuthenticated) {
-    navigate("/blogs");
-  }
+  // const isAuthenticated = true;
+  // if (isAuthenticated) {
+  //   navigate("/blogs");
+  // }
 
   return (
     <div className="bg-[#252525] text-white">
